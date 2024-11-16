@@ -1,0 +1,38 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  transition: 2s linear;
+}
+
+td,th{
+  padding: 5px;
+}
+
+.CompanyDetails{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.checkExp{
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.checkRole{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.developer,.tester,.designer{
+  display: flex;
+}
